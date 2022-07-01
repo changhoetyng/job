@@ -32,7 +32,7 @@
                 <table>
                     <tr>
                         <th>Date</th>
-                        <th v-for="x in Object.keys(periodRatio).length" v-bind:key="x">{{x}}</th>
+                        <th v-for="x in Object.keys(periodRatio).length" v-bind:key="x">{{x}}-{{x+1}}</th>
                     </tr>
                     <tr v-for="(item, index) in periodRatio" v-bind:key="index">
                         <th>{{item}}</th>
